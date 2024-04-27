@@ -1,0 +1,12 @@
+#Iteracion por For
+for x in range(1, 11):
+    print(x)
+
+#Iteracion por While
+x = 1
+while( x != 11):
+     print(x)
+     x += 1
+
+#Iteracion por Map
+list(map(print, range(1, 11)))
